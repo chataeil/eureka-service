@@ -4,4 +4,4 @@ COPY ${JAR_FILE} app.jar
 
 ENTRYPOINT ["java", "-jar", "-Dconfig.server=${CONFIG_SERVER}", "-Dprotocol=${PROTOCOL}", "-Dhostname=${HOSTNAME}", "app.jar"]
 
-EXPOSE 3998
+EXPOSE 3995
